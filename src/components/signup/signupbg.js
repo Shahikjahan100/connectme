@@ -93,11 +93,12 @@ const styles=StyleSheet.create({
     backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg.png)`,
     height:'90vh',
     width:"100%",
-    backgroundSize: 'cover',
-    backgroundPosition: 'center', 
+
     display:"flex",
     justifyContent:"center",
     alignItems:"center",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center', 
     },
     container:{
         height:'80vh',
@@ -109,6 +110,8 @@ const styles=StyleSheet.create({
         height:'80vh',
         width:"45%",
         backgroundImage: `url(${process.env.PUBLIC_URL}/images/cube.png)`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center', 
         
     },
     innerLeft:{
